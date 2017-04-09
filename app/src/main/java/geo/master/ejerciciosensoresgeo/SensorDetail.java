@@ -54,12 +54,8 @@ public class SensorDetail extends AppCompatActivity implements SensorEventListen
     }
 
 
-
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-        txtNombre.setText(sensorEvent.sensor.getName());
-        txtVersion.setText(String.valueOf(sensorEvent.sensor.getVersion()));
-        txtFabricante.setText(sensorEvent.sensor.getVendor());
         txtValor.setText(Arrays.toString(sensorEvent.values));
     }
 
