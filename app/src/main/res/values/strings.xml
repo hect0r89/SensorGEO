@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EjercicioSensoresGEO</string>
+    <string name="AppTitle">Sensores</string>
+    <string name="strButtonMain">Ver información</string>
+</resources>
